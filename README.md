@@ -13,7 +13,23 @@ Variational Auto-Encoders (VAEs) is a generative model built on top of an auto-e
 ![](images/VAELOSS.png)
 
 ### Results
-![](VAEP.png)
+![](images/VAEP.png)
+
+# DCGAN
+A generative adversarial network (GAN) is a generative model composed of two neural networks: a generator and a discriminator. These two networks are trained in an unsupervised way via a min-max Loss Objective. The generator creates ”realistic” synthetic images given random noise to fool the discriminator, while the discriminator evaluates the given image (real image or synthetic image) for authenticity.
+
+### Network architecture
+![](images/DCGAN.png)
+![](images/NetworkDCGAN.png)
+
+### Loss Objective
+![](images/DCGANLOSS.png)
+
+### Loss Plots
+![](images/GANLoss.png)
+
+### Results
+![](images/GANResult.png)
 
 
 # DCGAN
@@ -30,24 +46,7 @@ A generative adversarial network (GAN) is a generative model composed of two neu
 ![](images/GANLoss.png)
 
 ### Results
-![](GANResult.png)
-
-
-# DCGAN
-A generative adversarial network (GAN) is a generative model composed of two neural networks: a generator and a discriminator. These two networks are trained in an unsupervised way via a min-max Loss Objective. The generator creates ”realistic” synthetic images given random noise to fool the discriminator, while the discriminator evaluates the given image (real image or synthetic image) for authenticity.
-
-### Network architecture
-![](images/DCGAN.png)
-![](images/NetworkDCGAN.png)
-
-### Loss Objective
-![](images/DCGANLOSS.png)
-
-### Loss Plots
-![](images/GANLoss.png)
-
-### Results
-![](GANResult.png)
+![](images/GANResult.png)
 
 
 # Cyclic GAN
@@ -63,6 +62,6 @@ Image-to-image translation problem describes translating an image from domain A 
 ![](images/CyclicGANLoss.png)
 
 ### Results
-![](CyclicGANResults.png)
+![](images/CyclicGANResults.png)
 
 
