@@ -13,10 +13,10 @@ Variational Auto-Encoders (VAEs) is a generative model built on top of an auto-e
 ![](images/VAELOSS.png)
 
 ### Results
-![](VAEResults.png)
+![](VAEP.png)
 
 
-#DCGAN
+# DCGAN
 A generative adversarial network (GAN) is a generative model composed of two neural networks: a generator and a discriminator. These two networks are trained in an unsupervised way via a min-max Loss Objective. The generator creates ”realistic” synthetic images given random noise to fool the discriminator, while the discriminator evaluates the given image (real image or synthetic image) for authenticity.
 
 ### Network architecture
